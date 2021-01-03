@@ -9,6 +9,7 @@ import javax.servlet.http.HttpServletResponse;
 public class LoginServlet extends HttpServlet{
 protected void service(HttpServletRequest args0,HttpServletResponse args1)throws IOException
 {
+System.out.println("merging+");
 System.out.println("hello");	
 }
 
